@@ -25,7 +25,6 @@ jobs:
       - uses: microsoft/RichCodeNavIndexer@v0.1
         with:
           languages: typescript
-          environment: development
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           typescriptVersion: 0.6.0-next.18
           configFiles: .github/workflow-resources/.lsifrc.json
