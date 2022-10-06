@@ -22,7 +22,7 @@ jobs:
       - name: Install dependencies
         run:  npm ci
 
-      - uses: microsoft/RichCodeNavIndexer@v0.1
+      - uses: microsoft/RichCodeNavIndexer@typescriptFixes
         with:
           languages: typescript
           repo-token: ${{ secrets.GITHUB_TOKEN }}
